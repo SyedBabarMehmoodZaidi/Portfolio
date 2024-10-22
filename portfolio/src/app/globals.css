@@ -4,6 +4,7 @@
 
 @layer base {
   body{
+    background-image: url(/background.jpg);
     color: white;
     background-color: black;
   }

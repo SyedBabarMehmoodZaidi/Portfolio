@@ -9,7 +9,7 @@ interface props {
 
 const Card:React.FC<propsType> = ({ title, desc, img, tags}) => {
   return (
-    <div className='border border-accent w-[300px] sm:w-[350px]'>
+    <div className='border border-accent w-[300px] sm:w-[350px]'data-aos="zoom-in-up">
         <div>
             <Image className='w-[300px] sm:w-[350px] h-auto'
             src={img}
